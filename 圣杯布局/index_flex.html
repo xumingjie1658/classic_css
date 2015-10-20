@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<head>
+	    <title>圣杯布局</title>
+		<style>
+			.left,
+       	    .middle,
+    	    .right{ 
+            	min-height: 130px;
+    	    }
+
+    	    .container {
+    	    	display: -webkit-box;
+				display: -webkit-flex;
+				display: -ms-flexbox;
+				display: flex;
+    	    }
+
+    	    .left {
+    	    	width: 200px;
+    	    	background: red;
+    	    }
+
+    	    .right {
+    	    	width: 220px;
+    	    	background: green;
+    	    }
+
+    	    .middle {
+    	    	-webkit-box-flex: 1;
+				-webkit-flex: 1;
+				flex: 1;
+				background: blue;
+    	    }
+
+
+
+		</style>
+	</head>
+	<body>
+		<div class='container'>
+				<div class='left'></div>
+                <div class='middle'></div>
+    	    <div class='right'></div>
+    	</div>
+	</body>
+</html>

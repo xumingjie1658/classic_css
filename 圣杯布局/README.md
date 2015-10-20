@@ -37,3 +37,11 @@
         background: green;
     }
 }
+
+如果使用flex布局，圣杯布局会简单很多：
+
+将container设置为display:flex;
+
+左侧和右侧宽度依次设置为200px和220px，将中间设置为flex:1。因为左右的宽度固定，所以flex占据了伸缩盒的剩余部分。
+
+
