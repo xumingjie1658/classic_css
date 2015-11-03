@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>右侧固定</title>
+	<style>
+	    #container {
+		width: 100%;
+	    }
+
+	    #left,#right {
+		position: relative;
+		min-height: 100px;
+	    }
+		
+	    #left {
+		margin-right: 200px;
+		background: red;
+	    }
+
+	    #right {
+		top: -100px;
+		left: 100%;
+		margin-left: -200px;
+		width: 200px;
+		background: blue;
+	    }
+	</style>
+    </head>
+    <body>
+        <div id='container'>
+	    <div id='left'></div>
+	    <div id='right'></div>
+        </div>
+    </body>
+</html>
